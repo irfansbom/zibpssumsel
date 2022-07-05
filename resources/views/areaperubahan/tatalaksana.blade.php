@@ -6,10 +6,10 @@
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h2><strong> Manajemen Perubahan</strong></h2>
+                <h2><strong>Penataan Tatalaksana</strong></h2>
                 <ol>
                     <li>Area Perubahan</li>
-                    <li>Manajemen Perubahan</li>
+                    <li>Penataan Tatalaksana</li>
                 </ol>
             </div>
 
@@ -266,8 +266,8 @@
 
     <style>
         /*--------------------------------------------------------------
-                                                                                                                                                                                                                                                                                                                                                                # area Details
-                                                                                                                                                                                                                                                                                                                                                                --------------------------------------------------------------*/
+                                                                                                                                                                                                                                                                                                                                                                    # area Details
+                                                                                                                                                                                                                                                                                                                                                                    --------------------------------------------------------------*/
         .portfolio-details {
             padding-top: 40px;
         }

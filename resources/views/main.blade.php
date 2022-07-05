@@ -57,11 +57,11 @@
 
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
-            <h1 class="logo"><a href="index.html">Zona <span>Integritas</span></a></h1>
+            <h1 class="logo"><a href="{{ url('/') }}">Zona <span>Integritas</span></a></h1>
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="#home" id="home_nav">Home</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('profile') }}" id="profile_nav">Profil</a></li>
+                    <li><a class="nav-link scrollto" href="#profile" id="profile_nav">Profil</a></li>
                     <li><a class="nav-link scrollto" href="#tahapzi">Tahap Pembangunan ZI</a></li>
                     {{-- <li><a class="nav-link scrollto" href="#zonaintegritas">Zona Integritas</a></li> --}}
                     <li class="dropdown">
@@ -108,8 +108,8 @@
                     <div class="col-lg-6">
                         <h4>Ikuti Surat Kabar Kami</h4>
                         <p class="fst-italic">Join Our Newsletter</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        <form id="subs_form">
+                            <input type="email" name="email"><input type="submit" value="Subscribe" id="btn_subs">
                         </form>
                     </div>
                 </div>
@@ -196,6 +196,18 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#subs_form").submit(function(event) {
+                event.preventDefault();
+            });
+            $("#pesan_form").submit(function(event) {
+                event.preventDefault();
+            })
+        });
+    </script>
 
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>

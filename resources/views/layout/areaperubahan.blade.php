@@ -59,7 +59,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}" id="home_nav">Home</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('profile') }}" id="profile_nav">Profil</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('/') }}" id="profile_nav">Profil</a></li>
                     <li><a class="nav-link scrollto" href="{{ url('/') }}">Tahap Pembangunan ZI</a></li>
                     {{-- <li><a class="nav-link scrollto" href="#zonaintegritas">Zona Integritas</a></li> --}}
                     <li class="dropdown"><a href="{{ url('/') }}" class="active"><span>Zona Integritas</span> <i
@@ -95,7 +95,7 @@
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="section-bg" style="background-color: rgba(210, 238, 243, 0.849)">
+    <footer id="footer" class="section-bg" style="">
 
         {{-- <div class="footer-newsletter">
             <div class="container">
@@ -111,7 +111,7 @@
             </div>
         </div> --}}
 
-        <div class="footer-top section-bg"style="background-color: rgba(210, 238, 243, 0.849)">
+        <div class="footer-top section-bg"style="border-top: 1px solid #acacac73 ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 footer-contact">

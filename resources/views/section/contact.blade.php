@@ -45,7 +45,7 @@
             </div>
 
             <div class="col-lg-6">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="asd" method="post" role="form" class="php-email-form" id="pesan_form">
                     <div class="row">
                         <div class="col form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Nama"
@@ -65,7 +65,7 @@
                     </div>
                     <div class="my-3">
                         <div class="loading">Loading</div>
-                        <div class="error-message"></div>
+                        {{-- <div class="error-message"></div> --}}
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
                     <div class="text-center"><button type="submit">Send Message</button></div>
